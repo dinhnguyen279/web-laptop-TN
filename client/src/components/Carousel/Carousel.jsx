@@ -24,13 +24,13 @@ export const Carousel = ({slides}) => {
     }
   return (
       <section className='relative h-[100vh] w-full flex justify-center items-start '>
-              <FontAwesomeIcon icon={faArrowAltCircleLeft} className="left-arrow text-white border-2 rounded-full hover:bg-[#45aece] absolute top-[20%] left-[20%] text-5xl z-10 cursor-pointer select-none " onClick={()=>prevSlide()}/>
-              <FontAwesomeIcon icon={faArrowAltCircleRight} className="right-arrow text-white border-2 rounded-full hover:bg-[#45aece] absolute top-[20%] right-[20%] text-5xl z-10 cursor-pointer select-none" onClick={()=>nextSlide()}/>
+              <FontAwesomeIcon icon={faArrowAltCircleLeft} className="left-arrow text-white border-2 rounded-full hover:bg-[#45aece] absolute top-[10%] md:top-[25%] left-[10%] md:left-[20%] text-5xl z-10 cursor-pointer select-none " onClick={()=>prevSlide()}/>
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="right-arrow text-white border-2 rounded-full hover:bg-[#45aece] absolute top-[10%] md:top-[25%] right-[10%] md:right-[20%] text-5xl z-10 cursor-pointer select-none" onClick={()=>nextSlide()}/>
               {dataCarousel.map((arr, idx) => {
                   return (
-                      <div key={idx} className={idx === current ? ' relative h-[10vh] flex justify-center items-start opacity-100 duration-1000' : 'relative h-[100vh] flex justify-center items-start opacity-0 duration-1000 ease-in-out'}>
+                      <div key={idx} className={idx === current ? ' relative h-[100vh] flex justify-center items-start opacity-100 duration-1000' : 'relative h-[100vh] flex justify-center items-start opacity-0 duration-1000 ease-in-out'}>
                           {idx === current && (
-                              <img src={arr.image} alt="images" className="w-[60vw] h-[50vh] rounded-lg" />
+                              <img src={arr.image} alt="images" className="w-[100vw] h-[30vh] md:w-[60vw] md:h-[60vh] rounded-lg" />
                           )}
                       </div>
                   )
