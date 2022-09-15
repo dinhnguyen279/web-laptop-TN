@@ -1,4 +1,10 @@
-import { faCircle, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faMailBulk,
+  faArrowRight,
+  faClock,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./footer.css";
@@ -8,7 +14,7 @@ const footer = () => {
     <footer id="footer" className="footer-wrapper">
       <div className="container">
         {/* DONG 1 */}
-        <div className="row  row-footer">
+        <div className="row row-footer">
           <div className="col pt-3">
             <p>HOTLINE</p>
             <br />
@@ -41,7 +47,7 @@ const footer = () => {
                 <input
                   className="input-footer"
                   type="text"
-                  placeholder="Email*"
+                  placeholder=" Email*"
                 />
                 <input
                   className="bg-[rgba(52,79,129,0.9)] rounded-[99px] py-2 px-3 ml-5"
@@ -60,19 +66,19 @@ const footer = () => {
             <p className="text-lg">TN TECHNOLOGY</p>
             <ul className="leading-9">
               <li>
-                <FontAwesomeIcon className="faCircle" icon={faCircle} /> 181 Cao
-                Thắng, Q.10, HCM
+                <FontAwesomeIcon className="faCircle" icon={faHome} />
+                abcxyz, Q.10, HCM
               </li>
               <li>
-                <FontAwesomeIcon className="faCircle" icon={faCircle} />{" "}
+                <FontAwesomeIcon className="faCircle" icon={faMailBulk} />
                 admin@zomedical.vn
               </li>
               <li>
-                <FontAwesomeIcon className="faCircle" icon={faCircle} /> 08:30 -
-                20:00 (chủ nhật nghỉ)
+                <FontAwesomeIcon className="faCircle" icon={faClock} />
+                08:30 - 20:00 (chủ nhật nghỉ)
               </li>
               <li>
-                <FontAwesomeIcon className="faCircle" icon={faCircle} />{" "}
+                <FontAwesomeIcon className="faCircle" icon={faPhone} />
                 Hotline: 091.2222.592 (24/7)
               </li>
             </ul>
@@ -81,11 +87,11 @@ const footer = () => {
             <div className="pl-3 text-left leading-7">
               <ul>
                 <li>
-                  <FontAwesomeIcon className="faCircle" icon={faCircle} />
+                  <FontAwesomeIcon className="faCircle" icon={faPhone} />
                   Tư vấn 1: 0902677745 (8h30 - 19h)
                 </li>
                 <li>
-                  <FontAwesomeIcon className="faCircle" icon={faCircle} />
+                  <FontAwesomeIcon className="faCircle" icon={faPhone} />
                   Tư vấn 2: 093.8449788 (8h30 - 19h)
                 </li>
               </ul>
@@ -97,44 +103,44 @@ const footer = () => {
             </h2>
             <div className="flex flex-col  justify-start">
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Chính sách bảo vệ thông tin cá nhân </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span> Chính sách vận chuyển và giao nhận </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Chính sách đổi trả và hoàn tiền</span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Chính sách bảo hành </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span> Chính sách giải quyết tranh chấp và khiếu nại </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Chính sách và quy định chung </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Chính sách kiểm hàng</span>
                 </a>
               </div>
@@ -146,32 +152,32 @@ const footer = () => {
             </h2>
             <div className="flex flex-col justify-start">
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Giới thiệu ZoMedical </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Chủ sở hữu website </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Miễn trừ trách nhiệm </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Người chịu trách nhiệm : Trần Văn A </span>
                 </a>
               </div>
               <div className="menu-item">
-                <a href="#">
-                  <FontAwesomeIcon icon={faArrowRight} />{" "}
+                <a href="/">
+                  <FontAwesomeIcon icon={faArrowRight} />
                   <span>Công ty TNHH MTV TN technology </span>
                 </a>
               </div>
@@ -181,7 +187,7 @@ const footer = () => {
         <div className="flex justify-center">
           <div className="flex border bg-white text-black pt-4 pb-3">
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="	https://cdn.tgdd.vn/Brand/1/logo-dell-149x40.png"
                   alt=""
@@ -189,7 +195,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="	https://cdn.tgdd.vn/Brand/1/logo-macbook-149x40.png"
                   alt=""
@@ -197,7 +203,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="https://cdn.tgdd.vn/Brand/1/logo-asus-149x40.png"
                   alt=""
@@ -206,7 +212,7 @@ const footer = () => {
             </div>
 
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="	https://cdn.tgdd.vn/Brand/1/logo-hp-149x40-1.png"
                   alt=""
@@ -214,7 +220,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="	https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png"
                   alt=""
@@ -222,7 +228,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="	https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png"
                   alt=""
@@ -230,7 +236,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png"
                   alt=""
@@ -238,7 +244,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="https://cdn.tgdd.vn/Brand/1/logo-lg-149x40.png"
                   alt=""
@@ -246,7 +252,7 @@ const footer = () => {
               </a>
             </div>
             <div className="iteam_menu">
-              <a href="#">
+              <a href="/">
                 <img
                   src="	https://cdn.tgdd.vn/Brand/1/logo-intel-149x40.png"
                   alt=""
@@ -257,7 +263,7 @@ const footer = () => {
         </div>
       </div>
       <div className="bg-[rgba(52,79,129,0.9)] pt-3 pb-4 text-center">
-        Copyright 2022 © TN TECHNOLOGY
+        Copyright {new Date().getFullYear()} &copy; TN TECHNOLOGY
       </div>
     </footer>
   );

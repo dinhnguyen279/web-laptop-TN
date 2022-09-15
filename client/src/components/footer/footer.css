@@ -1,38 +1,45 @@
 .footer-wrapper {
-    background-color: #29335c;
-    width: 100%;
-    position: relative;
-    display: block;
-    color: #fff;
+  background-color: #29335c;
+  width: 100%;
+  position: relative;
+  display: block;
+  color: #fff;
 }
 .row.row-collapse {
-    max-width: 1180px;
+  max-width: 1180px;
 }
-.row-footer{
-    text-align: center;
+.row-footer {
+  text-align: center;
 }
-.colum-footer{
-    padding: 20px 0px 0px 0px;
-    border-left: 1px dashed white;
+.row-footer ul li {
+  list-style-type: circle;
+}
+.colum-footer {
+  padding: 20px 0px 0px 0px;
+  border-left: 1px dashed white;
 }
 
-.menu-item{
-    border-bottom: 1px solid white;
+.menu-item {
+  border-bottom: 1px solid white;
 }
 .iteam_menu {
-    text-align: center;
-    margin: 3px;
-    padding: 3px;
+  text-align: center;
+  margin: 3px;
+  padding: 3px;
 }
-.input-footer{
-    height: 35px;
-    width: 90px;
-    border-radius: 99px;
-    border: 1.5px solid rgba(52, 79, 129, 0.9);
-    color: #197ad1 !important;
-    background: transparent;
-    box-shadow: none;
+.input-footer {
+  height: 35px;
+  width: 90px;
+  padding-left: 5px;
+  border-radius: 99px;
+  border: 1.5px solid rgba(52, 79, 129, 0.9);
+  /* border: 1.5px solid white; */
+  color: #197ad1 !important;
+  background: transparent;
+  box-shadow: none;
+  outline: white;
 }
-.faCircle{
-    font-size: 5px;
+.faCircle {
+  font-size: 15px;
+  padding-right: 5px;
 }
