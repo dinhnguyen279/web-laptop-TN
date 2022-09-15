@@ -44,7 +44,7 @@ const footer = () => {
                   placeholder="Email*"
                 />
                 <input
-                  className="bg-[rgba(22,69,155,0.9)] rounded-[99px] py-2 px-3 ml-5"
+                  className="bg-[rgba(52,79,129,0.9)] rounded-[99px] py-2 px-3 ml-5"
                   type="submit"
                 />
               </form>
@@ -256,7 +256,7 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[rgba(22,69,155,0.9)] pt-3 pb-4 text-center">
+      <div className="bg-[rgba(52,79,129,0.9)] pt-3 pb-4 text-center">
         Copyright 2022 © TN TECHNOLOGY
       </div>
     </footer>
