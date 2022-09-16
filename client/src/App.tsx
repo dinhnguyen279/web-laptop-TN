@@ -3,7 +3,7 @@ import Footer from "./components/footer/Footer";
 import Carousel from "./components/Carousel/Carousel";
 import Navbar from "./components/Navbar/Navbar";
 import { dataCarousel } from "./components/Carousel/dataCarousel";
-import BestSeller from "./components/Products/BestSeller";
+import BestSeller from "./pages/Products/BestSeller";
 
 function App() {
   return (

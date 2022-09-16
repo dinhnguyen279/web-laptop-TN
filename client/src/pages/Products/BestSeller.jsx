@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
-import "./bestSeller.css";
+import "./pages.css";
 
 import { Grid, Pagination } from "swiper";
 
