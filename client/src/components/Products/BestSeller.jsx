@@ -23,9 +23,15 @@ const BestSeller = () => {
                 className="mySwiper grid "
             >
                 {
-                    dataProducts.map((img, idx) => {
+                    dataProducts.map((val, idx) => {
                         return (
-                            <SwiperSlide ><img src={img.image} alt="" /></SwiperSlide>
+                            <SwiperSlide key={idx} className="flex-col hover:">
+                                <img src={val.image} alt="best seller" />
+                                <p className="md:text-xl text-[0.4rem] text-[#FFDEAD]">New</p>
+                                <p className="md:text-3xl text-[0.7rem] font-bold">{val.title}</p>
+                                <h1 className=" md:text-3xl text-[0.5rem]">{val.description}</h1>
+                                <h2 className="md:text-xl text-[0.5rem]">From {val.price}</h2>
+                            </SwiperSlide>
                         )
                     })
                 }
