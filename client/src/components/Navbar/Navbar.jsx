@@ -14,7 +14,7 @@ import {
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import '../Navbar/navbar.css'
-export const Navbar = () => {
+ const Navbar = () => {
   const navRef = useRef();
   const showNavbar = () => {
     navRef.current.classList.toggle('responsive_nav');
@@ -54,10 +54,6 @@ export const Navbar = () => {
                   <p>Đăng Nhập</p>
                 </li>
                 <li>
-                  <span><FontAwesomeIcon icon={faCartArrowDown} className="icon"/></span>
-                  <p>Giỏ hàng</p>
-                </li>
-                <li>
                   <span><FontAwesomeIcon icon={faPhoneSquare} className="icon"/></span>
                   <p>Tổng đài</p>
                 </li>
@@ -73,6 +69,10 @@ export const Navbar = () => {
                   <span><FontAwesomeIcon icon={faMessage}className="icon" /></span>
                   <p>Khuyến mãi</p> 
                 </li>
+                <li>
+                  <span><FontAwesomeIcon icon={faCartArrowDown} className="icon"/></span>
+                  <p>Giỏ hàng</p>
+                </li>
               </ul>
               <button className="nav-btn flex lg:hidden" onClick={showNavbar}>
                 <FontAwesomeIcon icon={faBars} />
@@ -84,3 +84,4 @@ export const Navbar = () => {
     </>
   );
 };
+export default Navbar
