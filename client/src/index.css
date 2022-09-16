@@ -13,9 +13,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-p {
-  color: #45aece;
-}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --logoColor: #45aece;
+  --logoColorBold: #a8e3f3;
+  --mainColor: #29335c;
+  --textColor: #eee;
+  --bgBody: #f0f0f0;
+}

@@ -27,6 +27,10 @@
   color: var(--textColor);
 }
 
+.nav-main div a p {
+  color: #45aece;
+}
+
 .nav-main .nav-btn {
   cursor: pointer;
   background: transparent;
@@ -44,9 +48,9 @@
     padding: 5px 15px;
     background-color: #45aece;
   }
-  .nav-main ul {
+  .nav-main div {
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 0;
     height: auto;
     width: full;
@@ -60,7 +64,7 @@
     transform: translateY(-100vh);
     z-index: 100;
   }
-  .nav-main ul li {
+  .nav-main div a {
     display: flex;
     justify-content: space-between;
     letter-spacing: 3px;
@@ -74,9 +78,5 @@
     top: 2rem;
     right: 2rem;
     border: 2px solid red;
-  }
-
-  ul {
-    font-size: 1rem;
   }
 }
