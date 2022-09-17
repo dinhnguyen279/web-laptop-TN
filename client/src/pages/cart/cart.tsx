@@ -70,9 +70,11 @@ const Cart = () => {
                 </div>
               </div>
               <div className="text-center my-3">
-                <button className="border bg-[#45aece] text-white font-bold w-full h-9">
-                  TIẾN HÀNH THANH TOÁN
-                </button>
+                <Link to="/pay">
+                  <button className="border bg-[#45aece] text-white font-bold w-full h-9">
+                    TIẾN HÀNH THANH TOÁN
+                  </button>
+                </Link>
               </div>
               <div>
                 <h2 className="text-lg font-bold pb-2 border-b-2">
