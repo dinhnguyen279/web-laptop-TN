@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./footer.css";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer id="footer" className="footer-wrapper">
       <div className="container">
@@ -269,4 +269,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

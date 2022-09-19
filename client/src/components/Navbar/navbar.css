@@ -27,6 +27,10 @@
   color: var(--textColor);
 }
 
+.nav-main div a p {
+  color: #45aece;
+}
+
 .nav-main .nav-btn {
   cursor: pointer;
   background: transparent;
@@ -37,7 +41,6 @@
   opacity: 0;
   font-size: 2rem;
 }
-
 @media only screen and (max-width: 1024px) {
   .nav-main .nav-btn {
     visibility: visible;
@@ -45,12 +48,12 @@
     padding: 5px 15px;
     background-color: #45aece;
   }
-  .nav-main ul {
+  .nav-main div {
     position: absolute;
-    top: 10%;
-    right: 0;
+    top: 0;
+    left: 0;
     height: auto;
-    width: full;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,10 +61,13 @@
     gap: 1.5rem;
     background-color: var(--mainColor);
     transition: 1s;
-    transform: translateY(-100vh);
+    transform: translateX(-100vw);
     z-index: 100;
   }
-  .nav-main ul li {
+  body {
+    background-color: white;
+  }
+  .nav-main div a {
     display: flex;
     justify-content: space-between;
     letter-spacing: 3px;
@@ -76,8 +82,7 @@
     right: 2rem;
     border: 2px solid red;
   }
-
-  ul {
-    font-size: 1rem;
+  nav a:hover {
+    text-decoration: none;
   }
 }
