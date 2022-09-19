@@ -43,3 +43,21 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+
+/* -----Contact------ */
+/* .input-yeucau::before {
+  content: "";
+  position: absolute;
+  background-color: #fbfbfc;
+  top: 4px;
+  left: 4px;
+  height: 6px;
+  width: 6px;
+  border: none;
+  border-radius: 100%;
+  transform-origin: 8px 8px;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+} */
