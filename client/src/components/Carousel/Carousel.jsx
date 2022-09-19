@@ -19,7 +19,7 @@ const Carousel = ({ slides }) => {
     return null;
   }
   return (
-    <section className="relative h-full w-full flex items-start">
+    <section className="relative h-full w-full flex items-start mt-20">
       <FontAwesomeIcon
         icon={faArrowAltCircleLeft}
         className="left-arrow text-white border-2 rounded-full hover:bg-[#45aece] absolute top-[50%] -translate-y-[50%] left-[10%]  md:text-5xl z-10 cursor-pointer"
