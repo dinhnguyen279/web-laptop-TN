@@ -33,7 +33,7 @@ const BestSeller = (Products) => {
                     fakeDataBestSeller.map((pro, idx) => {
                         return (
                             <SwiperSlide key={idx} className="flex-col">
-                                <Link to="/viewproduct" className="hover:text-black hover:no-underline">
+                                <Link to="/store" className="hover:text-black hover:no-underline">
                                     <img src={pro.image} alt="best seller" />
                                     <p className="md:text-xl text-[0.4rem] text-[#FFDEAD]">New</p>
                                     <p className="md:text-3xl text-[0.7rem] font-bold">{pro.title}</p>

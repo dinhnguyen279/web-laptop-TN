@@ -18,13 +18,14 @@ import {
   NameSpecifications,
   Specifications,
 } from "./dataProduct";
+import { Link } from "react-router-dom";
 
 const Product = () => {
   return (
     <>
       <Navbar />
-      <div className="container flex justify-center my-5">
-        <div className="w-1/4">
+      <div className="container flex justify-between my-20 p-5">
+        <div className="w-1/4 h-1/2">
           <Swiper
             navigation={true}
             modules={[Navigation]}
@@ -53,9 +54,11 @@ const Product = () => {
             <button className="border border-[rgb(22,69,155)] mx-2 py-2 px-3 text-[rgb(22,69,155)] font-bold bg-[rgba(250,252,255,0.9)] hover:bg-[rgb(22,69,155)] hover:text-white">
               Thêm vào Giỏ
             </button>
-            <button className="border border-[rgb(22,69,155)] mx-2 py-2 px-3 text-white font-bold bg-[rgba(22,69,155,0.82)] hover:bg-[rgb(22,69,155)]">
-              Đặt Hàng
-            </button>
+            <Link to="/cart">
+              <button className="border border-[rgb(22,69,155)] mx-2 py-2 px-3 text-white font-bold bg-[rgba(22,69,155,0.82)] hover:bg-[rgb(22,69,155)]">
+                Đặt Hàng
+              </button>
+            </Link>
           </div>
         </div>
         <div className="w-3/5">
