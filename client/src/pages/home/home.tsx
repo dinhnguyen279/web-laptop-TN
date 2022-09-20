@@ -1,8 +1,8 @@
 import React from "react";
-import Carousel from "../../components/Carousel/Carousel";
 import { dataCarousel } from "../../components/Carousel/dataCarousel";
 import { fakeDataCompanyProduct } from "../../components/Products/dataProducts";
 import { fakeDataBestSeller } from "../../components/Products/dataProducts";
+import Carousel from "../../components/Carousel/Carousel";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import BestSeller from "../../components/Products/BestSeller/CardBestSeller";

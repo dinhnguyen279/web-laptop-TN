@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Carousel = ({ slides }) => {
+
   const [current, setCurrent] = useState(0);
   const length = slides.length;
   const nextSlide = () => {

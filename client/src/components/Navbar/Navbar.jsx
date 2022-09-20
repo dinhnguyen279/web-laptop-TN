@@ -56,43 +56,43 @@ const Navbar = () => {
                   className="sm:text-3xl text-2xl"
                 />
               </button>
-              <a href="/" className="underline">
+              <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faNotesMedical} className="icon" />{" "}
                 </span>
                 <p>Đăng ký</p>
               </a>
-              <a href="/" className="no-underline">
+              <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faUser} className="icon" />
                 </span>
                 <p>Đăng Nhập</p>
               </a>
-              <a href="/" className="no-underline">
+              <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faPhoneSquare} className="icon" />
                 </span>
                 <p>Tổng đài</p>
               </a>
-              <a href="/" className="no-underline">
+              <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faVideoCamera} className="icon" />
                 </span>
                 <p>Videos</p>
               </a>
-              <a href="/" className="no-underline">
+              <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faRss} className="icon" />
                 </span>
                 <p>Tin Công Nghệ</p>
               </a>
-              <a href="/" className="no-underline">
+              <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faMessage} className="icon" />
                 </span>
                 <p>Khuyến mãi</p>
               </a>
-              <a href="/cart" className="no-underline">
+              <a href="/cart" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faCartArrowDown} className="icon" />
                 </span>

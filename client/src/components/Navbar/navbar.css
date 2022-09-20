@@ -82,7 +82,4 @@
     right: 2rem;
     border: 2px solid red;
   }
-  nav a:hover {
-    text-decoration: none;
-  }
 }

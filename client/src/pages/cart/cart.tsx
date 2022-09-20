@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
-import { Navbar } from "../../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import "../cart/cart.css";
 const Cart = () => {
   return (
@@ -81,8 +81,16 @@ const Cart = () => {
                   Phiếu ưu đãi
                 </h2>
                 <form action="" className="flex flex-col">
-                  <input className="mt-3" type="text" placeholder="Mã ưu đãi" />
-                  <input className="mt-3" type="submit" value="Áp dụng" />
+                  <input
+                    className="mt-3 input-text"
+                    type="text"
+                    placeholder="Mã ưu đãi"
+                  />
+                  <input
+                    className="mt-3 input-submit"
+                    type="submit"
+                    value="Áp dụng"
+                  />
                 </form>
               </div>
             </div>

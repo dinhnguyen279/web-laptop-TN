@@ -27,7 +27,7 @@ const Contact = () => {
                             <textarea name='your-message' aria-required={true} aria-invalid={false} cols={10} rows={10} className='px-2 pt-2 border-[1px] border-[#2a54a4] rounded-2xl outline-none w-full bg-[#d5dde9]' placeholder='Nội dung tư vấn'></textarea>
                         </span>
                         <br />
-                        <input type="submit" value='Gửi yêu cầu' name='request' className='border-2 outline-none bg-[#2a54a4] rounded-3xl font-black uppercase px-3 py-2 text-white w-full m-auto md:w-2/5' />
+                        <input type="submit" value='Gửi yêu cầu' placeholder='Gửi yêu cầu' className='border-2 outline-none bg-[#2a54a4] rounded-3xl font-black uppercase px-3 py-2 text-white w-full m-auto md:w-2/5' />
                     </div>
                 </form>
                 <div className='flex flex-col p-4'>

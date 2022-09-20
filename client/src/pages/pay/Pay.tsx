@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
-import { Navbar } from "../../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import "../pay/pay.css";
 const Pay = () => {
   return (
