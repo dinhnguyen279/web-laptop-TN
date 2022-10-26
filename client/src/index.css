@@ -8,10 +8,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f0f0f0;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.fontMain {
+  font-family: "Montserrat", sans-serif;
 }
 
 @tailwind base;

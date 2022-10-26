@@ -4,7 +4,7 @@ import { publicRouter } from "./router";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App fontMain">
       <Routes>
         {publicRouter.map((route, index) => {
           const Page = route.component;
