@@ -62,8 +62,11 @@ const Cart = () => {
                 </tr>
               </tbody>
             </table>
-            <div className=" my-4 font-medium text-xs hover:no-underline hover:bg-[#45aece] hover:text-[#fff] hover:border-[#45aece]">
-              <Link className="border-2 border-black px-3 py-2 " to="/">
+            <div className=" my-4 font-medium text-xs">
+              <Link
+                className="border-2 border-black px-3 py-2 hover:bg-[#45aece] hover:text-[#fff] hover:border-[#45aece]  hover:no-underline "
+                to="/"
+              >
                 <FontAwesomeIcon className="pr-2" icon={faArrowLeft} />
                 TIẾP TỤC XEM SẢN PHẨM
               </Link>
