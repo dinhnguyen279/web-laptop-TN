@@ -11,12 +11,10 @@ const Pay = () => {
     <>
       <Navbar />
       <div className="container py-5 mt-20 font-semibold font-sans ">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="px-3">
-            <h1 className="font-bold text-lg border-t-2 py-3 border-gray-300">
-              THÔNG TIN THANH TOÁN
-            </h1>
-            <form action="" className="max-w-full bg-white p-4 rounded-xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:space-y-0 space-y-4 gap-x-5">
+          <div className="px-3 bg-white rounded-lg border-t-4 py-3 border-[#0a0f9e]">
+            <h1 className="font-bold text-lg ">THÔNG TIN THANH TOÁN</h1>
+            <form action="" className="max-w-full p-4">
               <div className="mb-4 relative">
                 <input
                   type="text"
@@ -113,9 +111,13 @@ const Pay = () => {
                 </label>
               </div>
             </form>
+            <p className="text-lg text-red-500 font-bold">
+              Lưu ý: Những thông tin trên là bắt buộc, hãy nhập thật kỹ càng.
+              Shop xin cảm ơn!
+            </p>
             <div className="my-4 text-xs">
               <Link
-                className="border-2 font-medium border-black px-3 py-2  hover:no-underline hover:bg-[#45aece] hover:text-[#fff] hover:border-[#45aece]"
+                className="border-2 font-medium border-[#0a0f9e] px-3 py-2  hover:no-underline hover:bg-[#0a0f9e] hover:text-[#fff]"
                 to="/cart"
               >
                 <FontAwesomeIcon className="pr-2" icon={faArrowLeft} />
@@ -123,8 +125,8 @@ const Pay = () => {
               </Link>
             </div>
           </div>
-          <div className="px-3">
-            <div className="px-8 py-3 border-2 border-[#0a0f9e]">
+          <div className="px-3 border-2 border-t-4 border-[#0a0f9e] rounded-lg">
+            <div className="px-8 py-3 ">
               <h1 className="font-bold text-lg mb-2">ĐƠN HÀNG CỦA BẠN</h1>
               <table className="w-full mb-4">
                 <thead>
@@ -178,16 +180,18 @@ const Pay = () => {
                           alt=""
                         />
                         <div className="pl-4">
-                          <p className=" font-bold text-[#45aece]">BIDV</p>
+                          <p className=" font-bold text-[#45aece]"> BIDV</p>
                           <p>
                             Số tài khoản:
                             <span className=" font-bold text-[#45aece]">
+                              {" "}
                               102870382453
                             </span>
                           </p>
                           <p>
                             Người nhận:
                             <span className=" font-bold text-[#45aece]">
+                              {" "}
                               Trần Văn A
                             </span>
                           </p>
