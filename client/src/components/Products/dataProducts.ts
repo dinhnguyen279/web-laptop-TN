@@ -1,6 +1,13 @@
 import img1 from "../../assets/images/BestSeller1.jpg";
 import imgAsus from "../../assets/images/asus.jpg";
 
+export interface DataBestSeller {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  price: string;
+}
 export const fakeDataBestSeller = [
   {
     id: 1,
@@ -60,6 +67,17 @@ export const fakeDataBestSeller = [
   },
 ];
 
+export interface DataProducts {
+  id: number;
+  image: string;
+  title: string;
+  description: string;
+  price: string;
+  vga: string;
+  cpu: string;
+  display: string;
+  ram: string;
+}
 export const FakeDataProduct = [
   {
     id: 1,
@@ -151,6 +169,11 @@ export const FakeDataProduct = [
   },
 ];
 
+export interface DataCompanyProduct {
+  id: number;
+  image: string;
+  title: string;
+}
 export const fakeDataCompanyProduct = [
   {
     id: 1,

@@ -7,7 +7,7 @@ const Store = () => {
     return (
         <>
             <Navbar />
-            <CardProduct FakeDataProduct={FakeDataProduct} />
+            <CardProduct dataProducts={FakeDataProduct} />
             <Footer />
         </>
     )

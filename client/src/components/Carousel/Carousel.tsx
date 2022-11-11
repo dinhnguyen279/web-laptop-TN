@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import { dataCarousel } from "./dataCarousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleLeft,
   faArrowAltCircleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Carousel = ({ slides }) => {
+interface Props {
+  slides: string[];
+}
 
+const Carousel = ({ slides }: Props) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
   const nextSlide = () => {
@@ -31,7 +33,7 @@ const Carousel = ({ slides }) => {
         className="right-arrow text-white border-2 rounded-full hover:bg-[#45aece] absolute top-[50%] -translate-y-[50%]  right-[10%]  md:text-5xl z-10 cursor-pointer"
         onClick={() => nextSlide()}
       />
-      {dataCarousel.map((arr, idx) => {
+      {slides.map((arr, idx) => {
         return (
           <div
             key={idx}
@@ -43,7 +45,7 @@ const Carousel = ({ slides }) => {
           >
             {idx === current && (
               <img
-                src={arr.image}
+                src={arr}
                 alt="images"
                 className="w-[100vw] h-[30vh] md:h-[40vh] lg:h-[70vh] rounded-lg"
               />

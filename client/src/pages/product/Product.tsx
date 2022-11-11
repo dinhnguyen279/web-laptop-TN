@@ -9,15 +9,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-// import required modules
 import { Navigation } from "swiper";
 
-import {
-  DetailedReviews,
-  Images,
-  NameSpecifications,
-  Specifications,
-} from "./dataProduct";
+import { Images, NameSpecifications, Specifications } from "./dataProduct";
 import { Link } from "react-router-dom";
 
 const Product = () => {

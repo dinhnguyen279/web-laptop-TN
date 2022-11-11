@@ -8,16 +8,16 @@ import {
   faMessage,
   faCartArrowDown,
   faPhoneSquare,
-  faVideoCamera,
+  // faVideoCamera,
   faRss,
   faTimes,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import "../Navbar/navbar.css";
 const Navbar = () => {
-  const navRef = useRef(null);
+  const navRef = useRef<HTMLDivElement | null>(null);
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
+    navRef.current?.classList.toggle("responsive_nav");
   };
   return (
     <div className="h-full max-w-full relative">
@@ -74,12 +74,12 @@ const Navbar = () => {
                 </span>
                 <p>Tổng đài</p>
               </a>
-              <a href="/" className="hover:no-underline">
+              {/* <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faVideoCamera} className="icon" />
                 </span>
                 <p>Videos</p>
-              </a>
+              </a> */}
               <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faRss} className="icon" />
@@ -103,10 +103,7 @@ const Navbar = () => {
               className="nav-btn py-2 rounded-sm px-3 flex lg:hidden"
               onClick={showNavbar}
             >
-              <FontAwesomeIcon
-                icon={faBars}
-                className="sm:text-3xl text-2xl"
-              />
+              <FontAwesomeIcon icon={faBars} className="sm:text-3xl text-2xl" />
             </button>
           </nav>
         </div>
