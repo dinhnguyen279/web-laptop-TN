@@ -74,12 +74,6 @@ const Navbar = () => {
                 </span>
                 <p>Tổng đài</p>
               </a>
-              {/* <a href="/" className="hover:no-underline">
-                <span>
-                  <FontAwesomeIcon icon={faVideoCamera} className="icon" />
-                </span>
-                <p>Videos</p>
-              </a> */}
               <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faRss} className="icon" />
@@ -103,7 +97,7 @@ const Navbar = () => {
               className="nav-btn py-2 rounded-sm px-3 flex lg:hidden"
               onClick={showNavbar}
             >
-              <FontAwesomeIcon icon={faBars} className="sm:text-3xl text-2xl" />
+              <FontAwesomeIcon icon={faBars} className="text-2xl" />
             </button>
           </nav>
         </div>

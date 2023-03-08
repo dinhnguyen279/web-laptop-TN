@@ -16,11 +16,6 @@ interface Props {
 }
 const BestSeller: React.FC<Props> = (dataProducts) => {
   const Products = dataProducts.dataProducts;
-  console.log(
-    Products.map((pre) => {
-      return pre.price;
-    })
-  );
 
   return (
     <div className="my-5 md:my-5" id="pro">
