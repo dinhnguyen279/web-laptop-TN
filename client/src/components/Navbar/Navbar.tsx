@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="/">Technology</a>
         </div>
         <div className="flex items-center justify-center space-x-5">
-          <form className="">
+          <form className="hidden sm:flex">
             <div className="relative flex">
               <input
                 className="border bg-gray-200 rounded-xl h-8 outline-none pl-3 w-32 sm:w-48 xl:w-72"
@@ -52,6 +52,7 @@ const Navbar = () => {
                   className="sm:text-3xl text-2xl"
                 />
               </button>
+
               <a href="/" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faNotesMedical} className="icon" />{" "}
