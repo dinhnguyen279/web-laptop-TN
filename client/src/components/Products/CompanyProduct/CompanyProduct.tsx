@@ -9,9 +9,9 @@ const Product: React.FC<Props> = (Products) => {
   const Product = Products.dataProducts;
   return (
     <div className="bg-white py-5">
-      <div className="container bg-black py-10">
-        <div className="m-auto pb-4 w-1/2">
-          <h1 className="text-4xl py-2 font-bold text-white text-center bg-[#30703a] border-[#93cb9c] border-2 rounded-3xl">
+      <div className="md:container mx-auto bg-black py-10">
+        <div className="m-auto pb-4 lg:w-1/3 w-1/2">
+          <h1 className="lg:text-4xl text-lg sm:text-xl py-2 font-bold text-white text-center bg-[#30703a] border-[#93cb9c] border-2 rounded-3xl">
             Sản phẩm mới
           </h1>
         </div>
@@ -30,11 +30,9 @@ const Product: React.FC<Props> = (Products) => {
                     alt="texxt"
                     className="w-[100%] h-[100%] object-cover"
                   />
-                  <div className="text-black bg-white p-4">
+                  <div className="text-black bg-white p-4 w-[100%] truncate hover:text-clip">
                     <div className="flex flex-col justify-start items-start space-y-3 pb-3">
-                      <h1 className="text-3xl truncate hover:text-clip">
-                        {pro.title}
-                      </h1>
+                      <h1 className="text-2xl">{pro.title}</h1>
                       <span className="text-xl">{pro.subtitle}</span>
                       <div className="font-bold text-white text-base rounded-3xl bg-slate-800 shadow-xl shadow-slate-500/40">
                         <button className="border-2 px-3 py-2 rounded-3xl">

@@ -9,6 +9,7 @@ import BestSeller from "../../components/Products/BestSeller/CardBestSeller";
 import CompanyProduct from "../../components/Products/CompanyProduct/CompanyProduct";
 import Contact from "../../components/Products/Contact/Contact";
 import Carousel from "../../components/Carousel/Carousel";
+import Banner from "../../components/Banner";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Navbar />
       <Carousel slides={imageCarousel} />
       <BestSeller dataProducts={fakeDataBestSeller} />
+      <Banner />
       <CompanyProduct dataProducts={fakeDataCompanyProduct} />
       <Contact />
       <Footer />
