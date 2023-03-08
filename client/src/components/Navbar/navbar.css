@@ -4,6 +4,8 @@
   --mainColor: #29335c;
   --textColor: #eee;
   --bgBody: #f0f0f0;
+  --bgcolor: #30703a;
+  --bordercolor: #93cb9c;
 }
 .icon {
   width: 25px;
@@ -11,24 +13,31 @@
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
-  color: #45aece;
+  color: black;
   transition: 0.5s;
   padding: 3px 6px;
 }
 .icon:hover {
   cursor: pointer;
-  color: #45aece91;
+  color: gray;
   width: 20px;
   height: 20px;
 }
+.logo a {
+  text-decoration: none;
+}
 
+.logo:hover a {
+  color: white;
+}
 /* ---navbar---- */
 .nav-main {
   color: var(--textColor);
 }
 
 .nav-main div a p {
-  color: #45aece;
+  color: black;
+  font-weight: 500;
 }
 
 .nav-main .nav-btn {
@@ -46,23 +55,25 @@
     visibility: visible;
     opacity: 1;
     padding: 5px 15px;
-    background-color: #45aece;
+    background-color: black;
   }
   .nav-main div {
     position: absolute;
     top: 0;
     left: 0;
     height: auto;
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--mainColor);
+    background-color: white;
     transition: 1s;
     transform: translateX(-100vw);
     z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   body {
     background-color: white;

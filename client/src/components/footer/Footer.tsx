@@ -50,7 +50,7 @@ const Footer = () => {
                   placeholder=" Email*"
                 />
                 <input
-                  className="bg-[rgba(52,79,129,0.9)] rounded-[99px] py-2 px-3 ml-5"
+                  className="bg-gray-500 rounded-[99px] py-2 px-3 ml-5"
                   type="submit"
                 />
               </form>
@@ -184,85 +184,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="flex border bg-white text-black pt-4 pb-3">
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="	https://cdn.tgdd.vn/Brand/1/logo-dell-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="	https://cdn.tgdd.vn/Brand/1/logo-macbook-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="https://cdn.tgdd.vn/Brand/1/logo-asus-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="	https://cdn.tgdd.vn/Brand/1/logo-hp-149x40-1.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="	https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="	https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="https://cdn.tgdd.vn/Brand/1/logo-lg-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div className="iteam_menu">
-              <a href="/">
-                <img
-                  src="	https://cdn.tgdd.vn/Brand/1/logo-intel-149x40.png"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
-      <div className="bg-[rgba(52,79,129,0.9)] pt-3 pb-4 text-center">
+      <div className="bg-gray-800 pt-3 pb-4 text-center">
         Copyright {new Date().getFullYear()} &copy; TN TECHNOLOGY
       </div>
     </footer>

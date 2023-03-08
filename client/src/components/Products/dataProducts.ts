@@ -1,4 +1,4 @@
-import img1 from "../../assets/images/BestSeller1.jpg";
+import img1 from "../../assets/images/capsac.jpg";
 import imgAsus from "../../assets/images/asus.jpg";
 import product1 from "../../assets/images/capsac.jpg";
 import product2 from "../../assets/images/typeC1.jpg";
@@ -17,58 +17,44 @@ export const fakeDataBestSeller = [
   {
     id: 1,
     image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
+    title: "Cáp sạc nhanh",
+    description: "Sản phẩm chất lượng cao.",
+    price: "399,000 ₫",
   },
   {
     id: 2,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
+    image: product2,
+    title: "Cáp sạc nhanh",
+    description: "Sản phẩm chất lượng cao.",
+    price: "399,000 ₫",
   },
   {
     id: 3,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
+    image: product3,
+    title: "Cáp sạc nhanh",
+    description: "Sản phẩm chất lượng cao.",
+    price: "399,000 ₫",
   },
   {
     id: 4,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
+    image: product4,
+    title: "Cáp sạc nhanh",
+    description: "Sản phẩm chất lượng cao.",
+    price: "399,000 ₫",
   },
   {
     id: 5,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
+    image: product5,
+    title: "Cáp sạc nhanh",
+    description: "Sản phẩm chất lượng cao.",
+    price: "399,000 ₫",
   },
   {
     id: 6,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
-  },
-  {
-    id: 7,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
-  },
-  {
-    id: 8,
-    image: img1,
-    title: "MacBook Air",
-    description: "Don’t take it lightly.",
-    price: "27,577,000 ₫",
+    image: product6,
+    title: "Cáp sạc nhanh",
+    description: "Sản phẩm chất lượng cao.",
+    price: "399,000 ₫",
   },
 ];
 

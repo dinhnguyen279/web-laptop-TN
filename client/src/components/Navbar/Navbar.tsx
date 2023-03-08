@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import logo from "../../assets/images/logoNew.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
@@ -8,7 +7,6 @@ import {
   faMessage,
   faCartArrowDown,
   faPhoneSquare,
-  // faVideoCamera,
   faRss,
   faTimes,
   faBars,
@@ -20,12 +18,10 @@ const Navbar = () => {
     navRef.current?.classList.toggle("responsive_nav");
   };
   return (
-    <div className="h-full max-w-full relative">
-      <div className=" fixed z-50 top-0 left-0 w-full flex bg-white justify-center items-center py-3 space-x-10 ">
-        <div className="logo">
-          <a href="/">
-            <img className="w-full h-14 object-fill" src={logo} alt="logo" />
-          </a>
+    <div className="relative">
+      <div className="fixed z-50 top-0 left-0 w-full flex bg-white justify-center items-center py-3 space-x-10 ">
+        <div className="logo bg-black text-white px-4 py-3 text-lg font-bold">
+          <a href="/">Technology</a>
         </div>
         <div className="flex items-center justify-center space-x-5">
           <form className="">
@@ -36,7 +32,7 @@ const Navbar = () => {
                 placeholder="Tìm kiếm"
               />
               <div className=" absolute top-0 right-0">
-                <button className="bg-[#45aece] py-[0.34rem] px-2 rounded-r-xl w-full text-[#a8e3f3]">
+                <button className="bg-black py-[0.34rem] px-2 rounded-r-xl w-full text-white">
                   <FontAwesomeIcon icon={faSearch} />
                 </button>
               </div>

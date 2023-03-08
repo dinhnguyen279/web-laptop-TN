@@ -18,7 +18,7 @@ const BestSeller: React.FC<Props> = (dataProducts) => {
   const Products = dataProducts.dataProducts;
 
   return (
-    <div className="my-5 md:my-5" id="pro">
+    <div className="my-5" id="pro">
       <div className="mb-4 text-black text-center">
         <h1 className="text-lg mb-2 md:mb-4 md:text-5xl">Best Seller</h1>
         <hr className="border-black border-2 m-auto w-14" />
@@ -30,7 +30,7 @@ const BestSeller: React.FC<Props> = (dataProducts) => {
           clickable: true,
         }}
         navigation={true}
-        spaceBetween={30}
+        spaceBetween={10}
         modules={[Grid, Pagination, Navigation]}
         className="mySwiper sm:px-5 px-0"
       >
@@ -38,15 +38,19 @@ const BestSeller: React.FC<Props> = (dataProducts) => {
           return (
             <SwiperSlide key={pro.id} className="flex-col">
               <Link to="/store" className="hover:text-black hover:no-underline">
-                <img src={pro.image} alt="best seller" />
-                <p className="md:text-xl text-[0.4rem] text-[#FFDEAD]">New</p>
+                <img
+                  src={pro.image}
+                  alt="best seller"
+                  className="w-[100%] h-[100%] object-cover"
+                />
+                <p className="md:text-xl text-[0.4rem] text-black">New</p>
                 <p className="md:text-3xl text-[0.7rem] font-bold">
                   {pro.title}
                 </p>
                 <h1 className=" md:text-3xl text-[0.5rem]">
                   {pro.description}
                 </h1>
-                <h2 className="md:text-xl text-[0.5rem]">From {pro.price}</h2>
+                <h2 className="md:text-xl text-[0.5rem]">Chỉ từ {pro.price}</h2>
               </Link>
             </SwiperSlide>
           );
