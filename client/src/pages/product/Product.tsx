@@ -18,8 +18,9 @@ const Product = () => {
   return (
     <>
       <Navbar />
-      <div className="container flex justify-between my-20 p-5">
-        <div className="w-1/4 h-1/4">
+      {/* <div className="container flex-row justify-between my-20 p-5 md:flex-col"> */}
+      <div className="container grid grid-cols-1 lg:grid-cols-2 gap-8 my-20 p-5 items-center justify-center">
+        <div className="w-full lg:w-1/2">
           <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
             {Images.map((val, index) => {
               return (
@@ -57,7 +58,7 @@ const Product = () => {
             </Link>
           </div>
         </div>
-        <div className="w-3/5">
+        <div className="">
           {NameSpecifications.map((value, index) => {
             return (
               <h1 className="my-3 font-bold text-2xl" key={index}>
