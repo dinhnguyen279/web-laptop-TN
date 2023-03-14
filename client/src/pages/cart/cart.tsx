@@ -25,20 +25,20 @@ const Cart = () => {
               <tbody>
                 <tr>
                   <td className="px-2">
-                    <div className="flex items-center flex-wrap">
+                    <div className="flex items-center w-full">
                       <FontAwesomeIcon
-                        className="text-slate-400 hover:text-slate-800"
+                        className="text-slate-400 hover:text-slate-800 text-lg cursor-pointer"
                         icon={faCircleXmark}
                       />
                       <img
-                        className="w-20 px-3"
-                        src="https://product.hstatic.net/1000026716/product/79uj_d0c75e24084a4dabb5b50902c3d32963.png"
+                        className="w-1/3 h-full object-cover"
+                        src="https://ugreenvietnam.com.vn/images/pro/cu-sac-nhanh-30w-gan-1-cong-usb-type-c-ho-tro-qc4-pd3-0-ugreen-90901-cao-cap_12593.jpg"
                         alt=""
                       />
-                      <p>Laptop Gaming Acer Nitro 5 Tiger AN515 58 79UJ</p>
+                      <p>Củ sạc nhanh 30W</p>
                     </div>
                   </td>
-                  <td className="px-2">37,990,000₫</td>
+                  <td className="px-2">369,000₫</td>
                   <td className="px-2 ">
                     <div className="flex">
                       <input
@@ -64,7 +64,7 @@ const Cart = () => {
             </table>
             <div className=" my-4 font-medium text-xs">
               <Link
-                className="border-2 border-black px-3 py-2 hover:bg-[#45aece] hover:text-[#fff] hover:border-[#45aece]  hover:no-underline "
+                className="border-2 border-black px-3 py-2 hover:bg-black hover:text-[#fff]  hover:no-underline "
                 to="/"
               >
                 <FontAwesomeIcon className="pr-2" icon={faArrowLeft} />
@@ -89,7 +89,7 @@ const Cart = () => {
               </div>
               <div className="text-center my-3">
                 <Link to="/pay">
-                  <button className="border bg-[#45aece] text-white font-bold w-full h-9">
+                  <button className="border bg-black text-white font-bold w-full h-9">
                     TIẾN HÀNH THANH TOÁN
                   </button>
                 </Link>
@@ -105,7 +105,7 @@ const Cart = () => {
                     placeholder="Mã ưu đãi"
                   />
                   <input
-                    className="mt-3 input-submit overflow-hidden relative bg-[#f9f9f9] h-9 text-[#666] text-base border border-solid border-[#ddd] transform-none font-normal hover:bg-[#45aece] hover:text-[#fff] hover:border-[#45aece]"
+                    className="mt-3 input-submit overflow-hidden relative bg-[#f9f9f9] h-9 text-[#666] text-base border border-solid border-[#ddd] transform-none font-normal hover:bg-black hover:text-[#fff] hover:border-[#45aece]"
                     type="submit"
                     value="Áp dụng"
                   />

@@ -19,16 +19,16 @@ const Product = () => {
     <>
       <Navbar />
       <div className="container flex justify-between my-20 p-5">
-        <div className="w-1/4 h-1/2">
-          <Swiper
-            navigation={true}
-            modules={[Navigation]}
-            className="mySwiper w-4/5"
-          >
+        <div className="w-1/4 h-1/4">
+          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
             {Images.map((val, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <img src={val} alt="" />
+                  <img
+                    src={val}
+                    alt=""
+                    className="w-full h-full object-cover"
+                  />
                 </SwiperSlide>
               );
             })}
@@ -45,10 +45,12 @@ const Product = () => {
           </div>
 
           <div className="flex justify-center">
-            <button className="border border-[rgb(22,69,155)] mx-2 py-2 px-3 text-[rgb(22,69,155)] font-bold bg-[rgba(250,252,255,0.9)] hover:bg-[rgb(22,69,155)] hover:text-white">
-              Thêm vào Giỏ
-            </button>
             <Link to="/cart">
+              <button className="border border-[rgb(22,69,155)] mx-2 py-2 px-3 text-[rgb(22,69,155)] font-bold bg-[rgba(250,252,255,0.9)] hover:bg-[rgb(22,69,155)] hover:text-white">
+                Thêm vào Giỏ
+              </button>
+            </Link>
+            <Link to="/pay">
               <button className="border border-[rgb(22,69,155)] mx-2 py-2 px-3 text-white font-bold bg-[rgba(22,69,155,0.82)] hover:bg-[rgb(22,69,155)]">
                 Đặt Hàng
               </button>
@@ -64,9 +66,9 @@ const Product = () => {
             );
           })}
           <ul>
-            <li>✔ Bảo hành chính hãng 24 tháng.</li>
+            <li>✔ Bảo hành chính hãng 18 tháng.</li>
             <li>✔ Hỗ trợ đổi mới trong 7 ngày.</li>
-            <li>✔ Windows bản quyền tích hợp.</li>
+            <li>✔ Hàng chính hãng.</li>
           </ul>
           <h2 className="my-3 font-bold text-lg">Thông số kỹ thuật: </h2>
           <tbody className="w-full">
