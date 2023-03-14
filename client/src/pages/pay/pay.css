@@ -50,7 +50,7 @@
   left: 50%;
   border: 15px solid rgb(245, 245, 245);
   border-radius: 50%;
-  border-top: 16px solid #3498db;
+  border-top: 16px solid green;
   width: 50px;
   height: 50px;
   -webkit-animation: spin 2s linear infinite; /* Safari */

@@ -19,12 +19,12 @@ const Carousel = ({ slides }: Props) => {
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
-  useEffect(() => {
-    setTimeout(() => {
-      nextSlide();
-    }, 3000);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [current]);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     nextSlide();
+  //   }, 3000);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [current]);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -47,8 +47,8 @@ const Carousel = ({ slides }: Props) => {
             key={idx}
             className={
               idx === current
-                ? "relative flex h-full justify-center items-start transition-all duration-1000"
-                : "relative h-full flex justify-center items-start duration-1000 transition-opacity ease-in-out"
+                ? "relative flex h-full justify-center items-start transition-all duration-1000 ease-linear"
+                : "relative h-full flex justify-center items-start duration-200 transition-all ease-in-out "
             }
           >
             {idx === current && (
@@ -61,12 +61,12 @@ const Carousel = ({ slides }: Props) => {
           </div>
         );
       })}
-      <a
+      {/* <a
         href="#pro"
         className="absolute opacity-90 top-[70%] left-[20%] uppercase font-medium border-4 text-gray-50 bg-black hover:no-underline hover:text-gray-300 rounded-md px-4 py-2 md:text-3xl"
       >
         Tìm hiểu thêm
-      </a>
+      </a> */}
     </section>
   );
 };
