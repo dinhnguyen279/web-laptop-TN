@@ -14,7 +14,7 @@ const Footer = () => {
     <footer id="footer" className="footer-wrapper">
       <div className="container">
         <div className="row row-footer">
-          <div className="col pt-3">
+          <div className="col pt-3 text-left">
             <div>
               <p>HOTLINE</p>
               <br />
@@ -25,11 +25,11 @@ const Footer = () => {
                 <strong>091.2222.592 (24/7)</strong>
               </h3>
             </div>
-            <div className="col text-left">
+            <div className="col text-left px-0">
               <h4 className="text-lg mb-1 leading-10 pt-3">
-                <strong>Tntechonology.vn</strong>
+                <strong>HNtechonology.vn</strong>
               </h4>
-              <p className="text-lg">TN TECHNOLOGY</p>
+              <p className="text-lg">HN TECHNOLOGY</p>
               <ul className="leading-9">
                 <li>
                   <FontAwesomeIcon className="faCircle" icon={faHome} />
@@ -37,7 +37,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <FontAwesomeIcon className="faCircle" icon={faMailBulk} />
-                  admin@zomedical.vn
+                  shopphukien@gmail.vn
                 </li>
                 <li>
                   <FontAwesomeIcon className="faCircle" icon={faClock} />
@@ -51,16 +51,16 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col colum-footer">
+          <div className="col colum-footer text-left">
             <div>
               <p>Tư vấn (08:30-19:00)</p>
               <br />
               <h2 className="font-black text-xl">
-                <strong>Mr. Trần Văn A 0938449788</strong>
+                <strong>Mr. Vũ Huy Nhân 0123456789</strong>
               </h2>
             </div>
-            <div className="col colum-footer text-center">
-              <div className="pl-3 text-left leading-7">
+            <div className="col colum-footer text-left">
+              <div className="text-left leading-7">
                 <ul>
                   <li>
                     <FontAwesomeIcon className="faCircle" icon={faPhone} />
@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col colum-footer">
+          <div className="col colum-footer text-left">
             <div>
               <p> Góp ý kiếu nại</p>
               <br />
@@ -89,43 +89,36 @@ const Footer = () => {
               <div className="flex flex-col justify-start">
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span>Chính sách bảo vệ thông tin cá nhân </span>
                   </a>
                 </div>
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span> Chính sách vận chuyển và giao nhận </span>
                   </a>
                 </div>
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span>Chính sách đổi trả và hoàn tiền</span>
                   </a>
                 </div>
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span>Chính sách bảo hành </span>
                   </a>
                 </div>
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span> Chính sách giải quyết tranh chấp và khiếu nại </span>
                   </a>
                 </div>
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span>Chính sách và quy định chung </span>
                   </a>
                 </div>
                 <div className="menu-item">
                   <a href="/">
-                    <FontAwesomeIcon className="mr-2" icon={faArrowRight} />
                     <span>Chính sách kiểm hàng</span>
                   </a>
                 </div>
@@ -136,7 +129,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-gray-800 pt-3 pb-4 text-center">
-        Copyright {new Date().getFullYear()} &copy; TN TECHNOLOGY
+        Copyright {new Date().getFullYear()} &copy; HN TECHNOLOGY
       </div>
     </footer>
   );
