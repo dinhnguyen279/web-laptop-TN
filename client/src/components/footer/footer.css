@@ -11,17 +11,11 @@
 .row-footer {
   text-align: center;
 }
-.row-footer ul li {
-  list-style-type: circle;
-}
+
 .colum-footer {
   padding: 20px 0px 0px 0px;
-  border-left: 1px dashed white;
 }
 
-.menu-item {
-  border-bottom: 1px solid white;
-}
 .iteam_menu {
   text-align: center;
   margin: 3px;

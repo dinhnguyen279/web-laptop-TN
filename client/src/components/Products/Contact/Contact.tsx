@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-slate-400 py-5 font-sans">
+    <section className=" py-5 font-sans">
       <h1 className="text-lg pb-2  mb-3 md:mb-4 md:text-5xl text-center">
         TƯ VẤN MIỄN PHÍ
       </h1>
@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="flex justify-center flex-col lg:flex-row container max-w-full ">
         <form className="p-4">
           <div className=" text-gray-400 flex flex-col lg:flex-row w-full lg:space-x-2 space-x-0 lg:space-y-0 space-y-2 mb-2">
-            <div className="bg-[#d5dde9] h-9 border-[1px] rounded-3xl border-[#30703a] px-2 outline-none">
+            <div className="bg-white h-9 border-[1px] rounded-3xl border-[#30703a] px-2 outline-none">
               <input
                 type="text"
                 name="Họ và Tên"
@@ -21,7 +21,7 @@ const Contact = () => {
                 className="bg-transparent h-9 px-2 border-none outline-none w-full"
               />
             </div>
-            <div className="bg-[#d5dde9] h-9 border-[1px] rounded-3xl border-[#30703a] px-2 outline-none">
+            <div className="bg-white h-9 border-[1px] rounded-3xl border-[#30703a] px-2 outline-none">
               <input
                 type="text"
                 name="Số Điện Thoại"
@@ -30,7 +30,7 @@ const Contact = () => {
                 className="bg-transparent h-9 px-2 border-none outline-none w-full"
               />
             </div>
-            <div className="bg-[#d5dde9] h-9 border-[1px] rounded-3xl border-[#30703a] px-2 outline-none">
+            <div className="bg-white h-9 border-[1px] rounded-3xl border-[#30703a] px-2 outline-none">
               <input
                 type="text"
                 name="Email"
@@ -48,7 +48,7 @@ const Contact = () => {
                 aria-invalid={false}
                 cols={10}
                 rows={10}
-                className="px-2 pt-2 border-[1px] border-[#30703a] rounded-2xl outline-none w-full bg-[#d5dde9]"
+                className="px-2 pt-2 border-[1px] border-[#30703a] rounded-2xl outline-none w-full bg-white"
                 placeholder="Nội dung tư vấn"
               ></textarea>
             </span>
@@ -57,7 +57,7 @@ const Contact = () => {
               type="submit"
               value="Gửi yêu cầu"
               placeholder="Gửi yêu cầu"
-              className="border-2 outline-none bg-gray-500 rounded-3xl font-black uppercase px-3 py-2 text-white w-full m-auto md:w-2/5"
+              className="border-2 outline-none bg-slate-800 rounded-3xl font-black uppercase px-3 py-2 text-white w-full m-auto md:w-2/5 shadow-xl shadow-slate-500/40"
             />
           </div>
         </form>
@@ -69,7 +69,7 @@ const Contact = () => {
           <a
             href="tel:0829954124"
             target="_self"
-            className="hover:no-underline text-center border-2 outline-none bg-gray-500 rounded-3xl font-black uppercase px-3 py-2 text-white "
+            className="hover:no-underline text-center border-2 outline-none bg-slate-800 rounded-3xl font-black uppercase px-3 py-2 text-white shadow-xl shadow-slate-500/40"
           >
             <FontAwesomeIcon icon={faPhone} /> LIÊN HỆ CHÚNG TÔI
           </a>
