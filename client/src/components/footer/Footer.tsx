@@ -1,7 +1,6 @@
 import {
   faHome,
   faMailBulk,
-  faArrowRight,
   faClock,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";

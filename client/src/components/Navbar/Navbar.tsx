@@ -59,7 +59,7 @@ const Navbar = () => {
                 </span>
                 <p>Đăng ký</p>
               </a>
-              <a href="/" className="hover:no-underline">
+              <a href="/signin" className="hover:no-underline">
                 <span>
                   <FontAwesomeIcon icon={faUser} className="icon" />
                 </span>
