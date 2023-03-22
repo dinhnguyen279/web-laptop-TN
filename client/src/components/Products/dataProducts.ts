@@ -173,7 +173,7 @@ export const fakeDataCompanyProduct = [
   {
     id: 5,
     image: product5,
-    title: "Chuột không dây 2.4G",
+    title: "Củ sạc 30W",
     subtitle: "Công nghệ GaN",
   },
   {

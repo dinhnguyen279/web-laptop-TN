@@ -57,7 +57,7 @@ const Cart = () => {
                     </div>
                   </td>
                   <td className="px-2 ">
-                    <div className="hidden lg:block">37,990,000₫</div>
+                    <div className="hidden lg:block">369,000₫</div>
                   </td>
                 </tr>
               </tbody>
@@ -80,11 +80,11 @@ const Cart = () => {
                 </h2>
                 <div className="flex justify-between border-b py-2 ">
                   <p className="text-black">Tạm tính</p>
-                  <p className="text-black font-medium">37,990,000₫</p>
+                  <p className="text-black font-medium">369,000₫</p>
                 </div>
                 <div className="flex justify-between border-b py-2">
                   <p className="text-black">Tổng</p>
-                  <p className="text-black font-bold">37,990,000₫</p>
+                  <p className="text-black font-bold">369,000₫</p>
                 </div>
               </div>
               <div className="text-center my-3">
